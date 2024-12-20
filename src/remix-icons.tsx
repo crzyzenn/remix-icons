@@ -35,7 +35,6 @@ export default function Command() {
             tooltip: name,
           }}
           title={name}
-          subtitle={`${ICON_PREFIX}${name}`}
           actions={
             <ActionPanel>
               <Action.CopyToClipboard content={`${ICON_PREFIX}${name}`} />
