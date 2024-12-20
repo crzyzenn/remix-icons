@@ -3,7 +3,7 @@
   "name": "remix-icons",
   "title": "Remix Icons",
   "description": "Search remix repository of icons",
-  "icon": "extension-icon.png",
+  "icon": "extension.png",
   "author": "zenish_shrestha",
   "owner": "dog",
   "categories": [
@@ -21,7 +21,8 @@
   ],
   "dependencies": {
     "@raycast/api": "^1.88.4",
-    "@raycast/utils": "^1.17.0"
+    "@raycast/utils": "^1.17.0",
+    "remixicon": "^4.6.0"
   },
   "devDependencies": {
     "@raycast/eslint-config": "^1.0.11",
@@ -29,7 +30,8 @@
     "@types/react": "18.3.3",
     "eslint": "^8.57.0",
     "prettier": "^3.3.3",
-    "typescript": "^5.4.5"
+    "typescript": "^5.4.5",
+    "ts-node": "^10.9.1"
   },
   "scripts": {
     "build": "ray build",
@@ -37,6 +39,7 @@
     "fix-lint": "ray lint --fix",
     "lint": "ray lint",
     "prepublishOnly": "echo \"\\n\\nIt seems like you are trying to publish the Raycast extension to npm.\\n\\nIf you did intend to publish it to npm, remove the \\`prepublishOnly\\` script and rerun \\`npm publish\\` again.\\nIf you wanted to publish it to the Raycast Store instead, use \\`npm run publish\\` instead.\\n\\n\" && exit 1",
-    "publish": "npx @raycast/api@latest publish"
+    "publish": "npx @raycast/api@latest publish",
+    "generate-icons": "ts-node scripts/generate-icon-list.ts"
   }
 }
