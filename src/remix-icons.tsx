@@ -32,12 +32,12 @@ export default function Command() {
           key={name}
           content={{
             value: { source: `icons/${name}`, tintColor: Color.PrimaryText },
-            tooltip: name,
+            tooltip: name.replace(".svg", ""),
           }}
-          title={name}
+          title={name.replace(".svg", "")}
           actions={
             <ActionPanel>
-              <Action.CopyToClipboard content={`${ICON_PREFIX}${name}`} />
+              <Action.CopyToClipboard content={`${ICON_PREFIX}${name.replace(".svg", "")}`} />
             </ActionPanel>
           }
         />
