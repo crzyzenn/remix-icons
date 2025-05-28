@@ -1,7 +1,7 @@
 {
   "$schema": "https://www.raycast.com/schemas/extension.json",
   "version": "1.0.0",
-  "name": "remix-icons",
+  "name": "@crzyzenn/remix-icons",
   "title": "Remix Icons",
   "description": "Search remix repository of icons",
   "icon": "extension.png",
