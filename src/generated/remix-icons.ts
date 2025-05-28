@@ -1,5 +1,5 @@
 // This file is auto-generated. Do not edit manually.
-  export const remixIcons = [
+export const remixIcons = [
   "24-hours-fill.svg",
   "24-hours-line.svg",
   "4k-fill.svg",
@@ -3057,6 +3057,5 @@
   "zoom-out-fill.svg",
   "zoom-out-line.svg",
   "zzz-fill.svg",
-  "zzz-line.svg"
+  "zzz-line.svg",
 ] as const;
-  
