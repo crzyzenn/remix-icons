@@ -10,7 +10,7 @@ export default function Command() {
   return (
     <Grid
       columns={columns}
-      inset={Grid.Inset.Large}
+      inset={Grid.Inset.Medium}
       isLoading={isLoading}
       searchBarPlaceholder="Search icons"
       searchBarAccessory={
